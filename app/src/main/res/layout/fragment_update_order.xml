@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".UpdateOrder">
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_button"
+        android:id="@+id/editPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Edit name"
+        android:textColorHint="@color/black"
+        android:textSize="17sp"
+        android:inputType="textPersonName"
+         />
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_button"
+        android:id="@+id/editPersonPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Edit phone number"
+        android:textColorHint="@color/black"
+        android:textSize="17sp"
+        android:inputType="phone"
+         />
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_button"
+        android:id="@+id/originalId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter ID of order"
+        android:textColorHint="@color/black"
+        android:textSize="17sp"
+        android:inputType="phone"
+         />
+
+    <Button
+        android:id="@+id/finalUpdate"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_width="150dp"
+        android:text="update"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:background="@drawable/custom_button"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
