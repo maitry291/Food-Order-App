@@ -7,7 +7,6 @@
 
 -User can update/cancel the order.
 
--Admin can add/delete/update schemes also.
 
 ### ⚒️ Tools 
 
